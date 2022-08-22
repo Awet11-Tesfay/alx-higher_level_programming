@@ -22,5 +22,5 @@ doub = doub->next->next;
 if (reg == doub)
 return (1);
 }
- return (0);
+return (0);
 }
