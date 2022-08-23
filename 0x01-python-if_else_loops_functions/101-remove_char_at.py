@@ -1,4 +1,11 @@
 #!/usr/bin/python3
-
-         name += 1
-      return strty
+def remove_char_at(str, n):
+    strtmp = ""
+    cont = 0
+    for c in str:
+        if cont == n:
+            pass
+        else:
+            strtmp += c
+        cont += 1
+    return strtmp
