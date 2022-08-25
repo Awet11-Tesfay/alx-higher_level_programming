@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
+    import sys
     import hidden_4
-
-     form h in dir(hidden_4):
-         if h[:2] != "__":
-             print(h)
+    if a[:2] != "__":
+        print(a)
