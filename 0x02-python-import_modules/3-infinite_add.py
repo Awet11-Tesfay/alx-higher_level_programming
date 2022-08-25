@@ -8,5 +8,5 @@ if __name__ == "__main__":
         if i > 0:
             sumc += int(c)
         i += 1
-    print(suma)
+    print(sumc)
 
