@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#3-infinite_add.py
 if __name__ == "__main__":
     import sys
     sumc = 0
@@ -9,4 +8,3 @@ if __name__ == "__main__":
             sumc += int(c)
         i += 1
     print(sumc)
-
