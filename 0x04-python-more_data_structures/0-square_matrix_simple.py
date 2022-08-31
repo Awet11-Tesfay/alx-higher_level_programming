@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    return [[x**2 for i in row] for row in matrix[:]]in matrix]
+    return [[x ** 2 for x in i] for i in matrix]
