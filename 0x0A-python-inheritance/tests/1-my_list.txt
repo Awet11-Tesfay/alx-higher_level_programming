@@ -1,6 +1,9 @@
+======================
 The ``1-my_list`` module
+======================
 
 Using ``print_sorted``
+-------------------
 
 This is a text file to test the 1-my_list module.  First import
 ``print_sorted`` from the ``1-my_list`` module:
