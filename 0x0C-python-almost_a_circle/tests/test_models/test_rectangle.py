@@ -111,7 +111,7 @@ class TestRectangle_instantiation(unittest.TestCase):
         self.assertEqual(10, r.y)
 
     
-    class TestRectangle_width(unittest.TestCase):
+class TestRectangle_width(unittest.TestCase):
     """Unittests for testing initialization of Rectangle width attribute."""
 
     def test_None_width(self):
