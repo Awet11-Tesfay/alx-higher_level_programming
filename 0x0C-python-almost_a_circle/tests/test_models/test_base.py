@@ -401,7 +401,7 @@ class TestBase_load_from_file(unittest.TestCase):
             Base.load_from_file([], 1)
 
 
-    class TestBase_save_to_file_csv(unittest.TestCase):
+class TestBase_save_to_file_csv(unittest.TestCase):
     """Unittests for testing save_to_file_csv method of Base class."""
 
     @classmethod
