@@ -110,7 +110,7 @@ class TestRectangle_instantiation(unittest.TestCase):
         r.y = 10
         self.assertEqual(10, r.y)
 
-    
+
 class TestRectangle_width(unittest.TestCase):
     """Unittests for testing initialization of Rectangle width attribute."""
 
@@ -456,7 +456,7 @@ class TestRectangle_stdout(unittest.TestCase):
     @staticmethod
     def capture_stdout(rect, method):
         """Captures and returns text printed to stdout.
-        
+
         Args:
             rect (Rectangle): The Rectangle to print to stdout.
             method (str): The method to run on rect.
@@ -601,7 +601,7 @@ class TestRectangle_update_args(unittest.TestCase):
         r = Rectangle(10, 10, 10, 10, 10)
         with self.assertRaisesRegex(ValueError, "width must be > 0"):
             r.update(89, 0)
-    
+
     def test_update_args_width_negative(self):
         r = Rectangle(10, 10, 10, 10, 10)
         with self.assertRaisesRegex(ValueError, "width must be > 0"):

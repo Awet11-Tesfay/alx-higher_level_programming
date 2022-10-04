@@ -346,7 +346,7 @@ class TestSquare_stdout(unittest.TestCase):
     @staticmethod
     def capture_stdout(sq, method):
         """Captures and returns text printed to stdout.
-        
+
         Args:
             sq (Square): The Square ot print to stdout.
             method (str): The method to run on sq.
